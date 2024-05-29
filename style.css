@@ -712,6 +712,7 @@ footer .copyright {
     grid-template-columns: repeat(1, 1fr);
   }
   .bar {
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -756,7 +757,7 @@ footer .copyright {
   }
   .home-content h3 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin: 0 auto;
     margin-top: 20px;
   }
@@ -770,6 +771,7 @@ footer .copyright {
     grid-template-columns: repeat(1, 1fr);
   }
   .skils .bar {
+    width: 100%;
     margin: 0 auto;
   }
   .home-img img {
@@ -812,6 +814,9 @@ footer .copyright {
     line-height: 1.5;
     font-weight: 400;
     font-style: oblique;
+  }
+  .competence h2 {
+    font-size: 6rem;
   }
   .service-container {
     grid-template-columns: repeat(1, 1fr);
@@ -874,13 +879,14 @@ footer .copyright {
   .home-content {
     margin-top: -9rem;
   }
-  .home-content h1 {
-    margin: 0 auto;
-    font-weight: 800;
+  .competence .heading {
+    font-size: 6rem;
+    text-align: center;
+    margin: 5rem 0;
   }
   .home-content h3 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin: 0 auto;
     margin-top: 20px;
   }
@@ -891,8 +897,6 @@ footer .copyright {
   .home-img img {
     position: relative;
     top: 4rem;
-    /* width: 40vw;
-    height: 45vw; */
     width: 60vw;
     height: 70vw;
     border-radius: 10px;
@@ -903,19 +907,21 @@ footer .copyright {
   .service h2 {
     margin-bottom: 3rem;
   }
+
   .service h4 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
+
   .service p {
-    font-size: 1.8rem;
-    line-height: 1.4;
+    font-size: 1.4rem;
+    line-height: 1.7;
   }
 
   .service-container {
     grid-template-columns: repeat(1, 1fr);
   }
   .projet-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .about-container {
     grid-template-columns: repeat(1, 1fr);
@@ -956,6 +962,11 @@ footer .copyright {
 
     cursor: pointer;
   }
+  .competence .heading {
+    font-size: 6rem;
+    text-align: center;
+    margin: 5rem 0;
+  }
 }
 @media (max-width: 420px) {
   .home-content h1 {
@@ -967,9 +978,14 @@ footer .copyright {
   .contact form textarea {
     height: 330px;
   }
+  .competence .heading {
+    font-size: 6rem;
+    text-align: center;
+    margin: 5rem 0;
+  }
   .Projets h2 {
     margin-bottom: 5rem;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     color: var(--text-color);
   }
@@ -1000,7 +1016,6 @@ footer .copyright {
     font-style: oblique;
   }
   .service-container {
-    /* background: #0bb7e2; */
     margin-bottom: 12px;
     border-radius: 10px 10px 10px 10px;
     border: 5px solid transparent;
@@ -1008,9 +1023,9 @@ footer .copyright {
     transition: 0.4s ease-in-out;
   }
   .service-info h4 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 800;
-    line-height: 1;
+    line-height: 1.4;
     margin: auto;
   }
   .service-info p {
@@ -1023,12 +1038,9 @@ footer .copyright {
   .home-img img {
     position: relative;
     top: 4rem;
-    width: 40vw;
-    height: 40vw;
-    /* border-radius: 50%; */
+    width: 50vw;
+    height: 60vw;
     background-size: cover;
-    /* box-shadow: 0 0 25px var(--main-color); */
     cursor: pointer;
-    /* transition: 0.4s ease-in-out; */
   }
 }
