@@ -775,6 +775,7 @@ footer .copyright {
   .home-img img {
     position: relative;
     top: 4rem;
+
     width: 50vw;
     height: 60vw;
     border-radius: 10px;
