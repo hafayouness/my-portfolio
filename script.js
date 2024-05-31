@@ -39,7 +39,7 @@ function sendEmail() {
     Username: "ahfa.youness@gmail.com",
     Password: "AB1FA20B761AFF41BB3F4913406F1B939ACB",
     To: "ahfa.youness@gmail.com",
-    From: "ahfa.youness@gmail.com",
+    From: email.value,
     Subject: subject.value,
     Body: bodyMessage,
   }).then((message) => {
